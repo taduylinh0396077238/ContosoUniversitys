@@ -17,5 +17,10 @@ namespace ContosoUniversityReal.Data
         public DbSet<ContosoUniversityReal.Models.Student> Student { get; set; } = default!;
         public DbSet<ContosoUniversityReal.Models.Course> Course { get; set; } = default!;
         public DbSet<ContosoUniversityReal.Models.Enrollment> Enrollment { get; set; } = default!;
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Instructor> Instructors { get; set; }
+        public DbSet<OfficeAssignment> OfficeAssignments { get; set; }
+        public DbSet<CourseAssignment> CourseAssignments { get; set; }
+
     }
 }
